@@ -35,15 +35,10 @@
   <!-- Botones de contacto -->
   <section class="p-6 text-center">
     <h2 class="text-2xl font-semibold mb-4">📞 Contáctanos</h2>
-    <div class="flex flex-col md:flex-row justify-center gap-4">
+    <div class="flex justify-center">
       <!-- Botón de llamada de emergencia -->
       <a href="tel:+526711132883" class="bg-red-600 text-white px-6 py-3 rounded-2xl text-lg font-bold shadow-lg hover:bg-red-700">
         🚨 Llamada de Emergencia
-      </a>
-
-      <!-- Botón de WhatsApp con formulario automático -->
-      <a id="whatsappBtn" target="_blank" class="bg-green-600 text-white px-6 py-3 rounded-2xl text-lg font-bold shadow-lg hover:bg-green-700">
-        💬 Enviar WhatsApp
       </a>
     </div>
   </section>
@@ -52,19 +47,5 @@
   <footer class="bg-blue-900 text-white text-center p-4 mt-6">
     <p>&copy; 2025 Llave Maestra 24/7 | Los Cabos, BCS</p>
   </footer>
-
-  <script>
-    // Generar mensaje prellenado de WhatsApp con un pequeño "formulario"
-    document.getElementById("whatsappBtn").addEventListener("click", function(){
-      let nombre = prompt("Ingresa tu nombre:");
-      let servicio = prompt("¿Qué servicio necesitas? (coche / casa / chapa)");
-      let detalles = prompt("Escribe detalles: modelo de coche, si tiene polarizado o adjunta foto de la chapa");
-
-      let mensaje = `Hola, soy ${nombre}. Necesito servicio de ${servicio}. Detalles: ${detalles}`;
-
-      let url = `https://wa.me/526711132883?text=${encodeURIComponent(mensaje)}`;
-      window.open(url, "_blank");
-    });
-  </script>
 </body>
 </html>
