@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Llave Maestra 24/7 - Cerrajería</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
 <body class="bg-gray-100 font-sans">
   <!-- Encabezado -->
   <header class="bg-blue-900 text-white text-center p-6 shadow-lg">
